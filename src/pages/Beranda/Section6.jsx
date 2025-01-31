@@ -1,7 +1,6 @@
-import React from "react";
-import { Typografi } from "../Components";
+import { Typografi } from "../../components/Components";
 import { useGalleryContext } from "../../utils/context/GalleryProvider";
-import GalleryList from "../GalleryList";
+import GalleryList from "../../components/GalleryList";
 const Section6 = () => {
   const { galleryDesa } = useGalleryContext();
   return (

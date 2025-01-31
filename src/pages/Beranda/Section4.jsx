@@ -1,8 +1,7 @@
-import React from "react";
-import { Typografi } from "../Components";
-import FlatCardItem from "../Card/FlatCardItem";
 import { useItemContext } from "../../utils/context/ItemProvider";
 import heroBg from "../../assets/apbd-bg.svg";
+import { Typografi } from "../../components/Components";
+import FlatCardItem from "../../components/Card/FlatCarditem";
 const paragraphContent = `
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod, lacus eget aliquam
   tincidunt, lorem nisl aliquet nunc, sit amet ornare nunc nisi 

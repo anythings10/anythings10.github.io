@@ -1,7 +1,7 @@
-import React from "react";
+import ButtonCardList from "../../components/Card/ButtonCardList";
+import { Typografi } from "../../components/Components";
 import { useItemContext } from "../../utils/context/ItemProvider";
-import { Typografi } from "../Components";
-import ButtonCardList from "../Card/ButtonCardList";
+
 const Section2 = () => {
   const { visitData } = useItemContext();
   return (

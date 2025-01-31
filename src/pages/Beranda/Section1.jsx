@@ -1,7 +1,6 @@
-import React from "react";
-import { Button, Typografi, Input } from "../Components";
+import IconDescItem from "../../components/Card/IconDescItem";
+import { Button, Typografi, Input } from "../../components/Components";
 import { useItemContext } from "../../utils/context/ItemProvider";
-import IconDescItem from "../Card/IconDescItem";
 
 const Section1 = () => {
   const { highLight, highLight2 } = useItemContext();

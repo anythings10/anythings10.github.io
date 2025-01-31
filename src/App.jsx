@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Beranda from "./pages/Beranda";
 import useAOS from "./utils/hooks/useAOS";
 import Footer from "./components/Footer";
 import ProfileDesa from "./pages/ProfileDesa";
@@ -9,10 +8,11 @@ import ScrollTop from "./utils/ScrollTop";
 import Infografis from "./pages/Infografis";
 import Kependudukan from "./pages/Kependudukan";
 import Stunting from "./pages/Stunting";
-import ApbDes from "./pages/ApbDes";
 import Bansos from "./pages/Bansos";
 import NotFound from "./pages/NotFound";
 import Berita from "./pages/Berita/Berita";
+import ApbDes from "./pages/ApbDes/ApbDes";
+import Beranda from "./pages/Beranda/Beranda";
 
 const App = () => {
   useAOS();

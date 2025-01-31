@@ -1,7 +1,6 @@
-import React from "react";
+import IconDescItem from "../../components/Card/IconDescItem";
+import HeroRigt from "../../components/Hero/HeroRight";
 import { useItemContext } from "../../utils/context/ItemProvider";
-import IconDescItem from "../Card/IconDescItem";
-import HeroRigt from "../Hero/HeroRight";
 
 const Section3 = () => {
   const { heroDummy, totalPenduduk } = useItemContext();

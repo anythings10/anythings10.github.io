@@ -1,8 +1,8 @@
 import { Fragment } from "react";
-import DisplayData from "../components/ApbDes/DisplayData";
-import VerticalChart from "../components/Chart/VerticalChart";
-import { Typografi } from "../components/Components";
-import { useApbDes } from "../utils/context/ApbDesContext";
+import { useApbDes } from "../../utils/context/ApbDesContext";
+import DisplayData from "./DisplayData";
+import { Typografi } from "../../components/Components";
+import VerticalChart from "../../components/Chart/VerticalChart";
 const ApbDes = () => {
   const { state } = useApbDes();
   return (
