@@ -9,7 +9,7 @@ import {
 } from "../../utils/LabelCHarts";
 const ChartComponent = () => {
   return (
-    <section className="flex flex-col md:flex-row gap-4 items-center justify-center h-screen ">
+    <section className="flex flex-col md:flex-row gap-4 items-center justify-center my-14 ">
       <div className="w-full md:w-2/3 h-[400px] border bg-white shadow-lg rounded-lg flex items-center justify-center">
         <BarChart />
       </div>

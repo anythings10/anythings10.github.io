@@ -7,14 +7,14 @@ const IconDescItem = ({ item }) => {
     <Fragment>
       {value && (
         <div className="flex items-center justify-center sm:flex-row">
-          <div className="p-2 md:p-3 rounded-tl-md rounded-bl-md bg-gradient-to-tr from-red-800 to-purple-600 text-center">
+          <div className="p-2 md:p-3 rounded-tl-md rounded-bl-md bg-gradient-to-tr from-red-800 to-purple-600 text-center shadow-md">
             <Typografi
               variant="paragraph"
               child={value}
               className="font-semibold text-white"
             />
           </div>
-          <div className="bg-slate-100 p-2 md:p-3 rounded-tr-md rounded-br-md">
+          <div className="bg-slate-100 p-2 md:p-3 rounded-tr-md rounded-br-md shadow-md">
             <Typografi
               className="text-center font-thin "
               variant="paragraph"

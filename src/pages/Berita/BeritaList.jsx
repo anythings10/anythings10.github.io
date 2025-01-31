@@ -1,6 +1,7 @@
 import { useBerita } from "../../utils/context/BeritaProvider";
 import { useState } from "react";
 import { HeartIcon, ShareIcon } from "@heroicons/react/16/solid";
+import { Typografi } from "../../components/Components";
 
 const BeritaList = ({ item, onOpenModal }) => {
   const { name, desc, image, date } = item;
@@ -22,8 +23,16 @@ const BeritaList = ({ item, onOpenModal }) => {
     <div className="bg-white rounded shadow-md p-4 flex flex-col h-full">
       <header className="flex items-center mb-2">
         <div>
-          <h3 className="text-lg font-bold line-clamp-1">{name}</h3>
-          <p className="text-sm text-gray-600">{date}</p>
+          <Typografi
+            variant="h5"
+            child={name}
+            className="font-bold line-clamp-1"
+          />
+          <Typografi
+            variant="kecil"
+            child={date}
+            className="font-thin text-gray-600"
+          />
         </div>
       </header>
 
@@ -33,7 +42,11 @@ const BeritaList = ({ item, onOpenModal }) => {
           alt="BERITA"
           className="w-full h-52 object-cover rounded-md"
         />
-        <p className="text-sm text-gray-600 mt-2">{desc}</p>
+        <Typografi
+          variant="kecil"
+          child={desc}
+          className="my-3 font-thin line-clamp-2"
+        />
       </section>
 
       <footer className="mt-auto flex items-center justify-between">

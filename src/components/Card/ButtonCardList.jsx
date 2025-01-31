@@ -41,7 +41,7 @@ const ButtonCardList = ({ item }) => {
         )}
         <Typografi
           variant="kecil"
-          className="font-thin text-gray-700"
+          className="font-thin text-gray-700 line-clamp-2"
           child={desc}
         />
       </div>
