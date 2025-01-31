@@ -1,7 +1,6 @@
-import React from "react";
-import BarChart from "../Chart/BarChart";
-import VerticalChart from "../Chart/VerticalChart";
-import DonatChart from "../Chart/DonatChart";
+import BarChart from "../../components/Chart/BarChart";
+import VerticalChart from "../../components/Chart/VerticalChart";
+import DonatChart from "../../components/Chart/DonatChart";
 import { dataReligion } from "../../utils/dummy";
 import {
   dataDusun,

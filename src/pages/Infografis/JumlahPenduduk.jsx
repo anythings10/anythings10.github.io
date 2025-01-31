@@ -1,6 +1,6 @@
 import { useItemContext } from "../../utils/context/ItemProvider";
-import IconDescItem from "../Card/IconDescItem";
-import { Typografi } from "../Components";
+import IconDescItem from "../../components/Card/IconDescItem";
+import { Typografi } from "../../components/Components";
 const JumlahPenduduk = () => {
   const { totalPenduduk } = useItemContext();
   return (

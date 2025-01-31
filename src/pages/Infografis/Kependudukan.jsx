@@ -1,11 +1,11 @@
 import React from "react";
-import { useItemContext } from "../utils/context/ItemProvider";
-import HeroRigt from "../components/Hero/HeroRight";
-import JumlahPenduduk from "../components/Infografis/JumlahPenduduk";
-import ChartComponent from "../components/Infografis/ChartComponent";
-import SimpleTable from "../components/SimpleTable";
-import { dummyPekerjaan } from "../utils/dummy";
-import { Typografi } from "../components/Components";
+import { useItemContext } from "../../utils/context/ItemProvider";
+import HeroRigt from "../../components/Hero/HeroRight";
+import JumlahPenduduk from "./JumlahPenduduk";
+import ChartComponent from "./ChartComponent";
+import SimpleTable from "../../components/SimpleTable";
+import { dummyPekerjaan } from "../../utils/dummy";
+import { Typografi } from "../../components/Components";
 const Kependudukan = () => {
   const { heroDummy4 } = useItemContext();
   return (

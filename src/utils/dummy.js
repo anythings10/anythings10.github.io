@@ -129,6 +129,21 @@ export const apbDes = [
     total: "Rp. 892,812,213.00",
   },
 ];
+
+export const idmList = [
+  {
+    title: "Status Desa",
+    total: " Alata Karya",
+  },
+  {
+    title: "Skor IDM 2025",
+    total: "0.78",
+  },
+  {
+    title: "Dimensi Sosial",
+    total: "0.82",
+  },
+];
 export const userData = [
   {
     id: 1,
@@ -868,3 +883,26 @@ export const newsData = [
     image: "https://source.unsplash.com/600x300/?metaverse,vr",
   },
 ];
+
+export const dataIDM = {
+  desa: "DESA ALATA KARYA",
+  lokasi: "Kabupaten Gorontalo Utara, Provinsi Gorontalo",
+  jumlahPenduduk: 4500,
+  status: "Desa Maju",
+  skorIDM: {
+    tahun: [2021, 2022, 2023, 2024, 2025],
+    nilai: [0.65, 0.7, 0.72, 0.75, 0.78],
+  },
+  dimensi: {
+    sosial: 0.82,
+    ekonomi: 0.72,
+    lingkungan: 0.8,
+  },
+  program: [
+    "Pembangunan Jalan & Jembatan Desa",
+    "Digitalisasi UMKM",
+    "Pengelolaan Sampah & Bank Sampah",
+    "Revitalisasi Pasar Desa",
+    "Bantuan Pendidikan & Beasiswa",
+  ],
+};

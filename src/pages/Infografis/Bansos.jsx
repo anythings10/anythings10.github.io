@@ -1,6 +1,6 @@
-import { Input } from "../components/Components";
+import { Input } from "../../components/Components";
 import React from "react";
-import { Button } from "../components/Components";
+import { Button } from "../../components/Components";
 
 const Bansos = () => {
   return (

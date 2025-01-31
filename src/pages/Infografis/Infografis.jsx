@@ -1,8 +1,8 @@
 import React from "react";
-import Tabs from "../components/Infografis/Tabs";
+import Tabs from "./Tabs";
 import { Outlet } from "react-router-dom";
-import { ItemProvider } from "../utils/context/ItemProvider";
-import { ApbDesProvider } from "../utils/context/ApbDesContext";
+import { ItemProvider } from "../../utils/context/ItemProvider";
+import { ApbDesProvider } from "../../utils/context/ApbDesContext";
 
 const Infografis = () => {
   return (

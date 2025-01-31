@@ -1,5 +1,5 @@
 import { dusunDummy } from "./dummy";
-
+import { dataIDM } from "./dummy";
 // Data untuk Doughnut Chart
 export const dataDusun = {
   labels: dusunDummy.map((item) => item.dusun),
@@ -83,4 +83,17 @@ export const optionsReligion = {
       beginAtZero: true,
     },
   },
+};
+
+export const idmData = {
+  labels: dataIDM.skorIDM.tahun,
+  datasets: [
+    {
+      label: "Skor IDM",
+      data: dataIDM.skorIDM.nilai,
+      borderColor: "#4337C9",
+      backgroundColor: "rgba(16, 185, 129, 0.2)",
+      tension: 0.4,
+    },
+  ],
 };

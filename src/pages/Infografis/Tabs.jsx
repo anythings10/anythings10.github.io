@@ -25,7 +25,7 @@ const Tabs = () => {
       name: "Bansos",
       icon: PresentationChartLineIcon,
     },
-    { id: 5, path: "/idm", name: "IDM", icon: ChartBarIcon },
+    { id: 5, path: "/infografis/idm", name: "IDM", icon: ChartBarIcon },
   ];
 
   return (

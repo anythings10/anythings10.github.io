@@ -4,15 +4,16 @@ import Navbar from "./components/Navbar";
 import useAOS from "./utils/hooks/useAOS";
 import Footer from "./components/Footer";
 import ScrollTop from "./utils/ScrollTop";
-import Infografis from "./pages/Infografis";
-import Kependudukan from "./pages/Kependudukan";
-import Stunting from "./pages/Stunting";
-import Bansos from "./pages/Bansos";
+import Infografis from "./pages/Infografis/Infografis";
+import Kependudukan from "./pages/Infografis/Kependudukan";
+import Stunting from "./pages/Infografis/Stunting";
+import Bansos from "./pages/Infografis/Bansos";
 import NotFound from "./pages/NotFound";
 import Berita from "./pages/Berita/Berita";
 import ApbDes from "./pages/ApbDes/ApbDes";
 import Beranda from "./pages/Beranda/Beranda";
 import ProfileDesa from "./pages/ProfileDesa/ProfileDesa";
+import Idm from "./pages/Infografis/Idm";
 
 const App = () => {
   useAOS();
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/infografis/stunting" element={<Stunting />} />
           <Route path="/infografis/apbdes" element={<ApbDes />} />
           <Route path="/infografis/bansos" element={<Bansos />} />
+          <Route path="/infografis/idm" element={<Idm />} />
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
