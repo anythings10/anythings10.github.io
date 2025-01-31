@@ -1,5 +1,5 @@
 import stokimg from "../../assets/stok.png";
-import { Typografi } from "../Components";
+import { Typografi } from "../../components/Components";
 const Stok = () => {
   return (
     <section className="sm:h-screen h-full flex flex-col items-center justify-center max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">

@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import useAOS from "./utils/hooks/useAOS";
 import Footer from "./components/Footer";
-import ProfileDesa from "./pages/ProfileDesa";
 import ScrollTop from "./utils/ScrollTop";
 import Infografis from "./pages/Infografis";
 import Kependudukan from "./pages/Kependudukan";
@@ -13,6 +12,7 @@ import NotFound from "./pages/NotFound";
 import Berita from "./pages/Berita/Berita";
 import ApbDes from "./pages/ApbDes/ApbDes";
 import Beranda from "./pages/Beranda/Beranda";
+import ProfileDesa from "./pages/ProfileDesa/ProfileDesa";
 
 const App = () => {
   useAOS();

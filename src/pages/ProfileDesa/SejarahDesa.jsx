@@ -1,5 +1,5 @@
+import HeroLeft from "../../components/Hero/HeroLeft";
 import { useItemContext } from "../../utils/context/ItemProvider";
-import HeroLeft from "../Hero/HeroLeft";
 const SejarahDesa = () => {
   const { heroDummy3 } = useItemContext();
   return (

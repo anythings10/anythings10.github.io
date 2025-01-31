@@ -1,6 +1,5 @@
 import { useItemContext } from "../../utils/context/ItemProvider";
-import HeroLeft from "../Hero/HeroLeft";
-
+import HeroLeft from "../../components/Hero/HeroLeft";
 const VisiMisi = () => {
   const { heroDummy2 } = useItemContext();
   return (
