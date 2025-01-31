@@ -1,4 +1,3 @@
-import React from "react";
 import { useItemContext } from "../../utils/context/ItemProvider";
 import HeroRigt from "../../components/Hero/HeroRight";
 import JumlahPenduduk from "./JumlahPenduduk";

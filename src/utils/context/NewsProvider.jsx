@@ -1,4 +1,3 @@
-import React from "react";
 import { useContext, useMemo, createContext } from "react";
 import { beritaDummy } from "../dummy";
 

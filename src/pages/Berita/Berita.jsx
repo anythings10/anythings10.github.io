@@ -1,4 +1,3 @@
-import React from "react";
 import { Typografi } from "../../components/Components";
 import { BeritaProvider } from "../../utils/context/BeritaProvider";
 import BeritaContent from "./BeritaContent";

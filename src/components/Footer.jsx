@@ -1,4 +1,3 @@
-import React from "react";
 import { PhoneIcon, BellIcon, MapIcon } from "@heroicons/react/16/solid";
 
 const Footer = () => {

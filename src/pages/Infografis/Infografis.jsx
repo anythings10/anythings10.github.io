@@ -1,4 +1,3 @@
-import React from "react";
 import Tabs from "./Tabs";
 import { Outlet } from "react-router-dom";
 import { ItemProvider } from "../../utils/context/ItemProvider";

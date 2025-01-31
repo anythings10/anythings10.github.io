@@ -1,5 +1,4 @@
 import FlatCardItem from "../../components/Card/FlatCarditem";
-import IconDescItem from "../../components/Card/IconDescItem";
 import LineChart from "../../components/Chart/LineChart";
 import { Typografi } from "../../components/Components";
 import { idmData } from "../../utils/LabelCHarts";

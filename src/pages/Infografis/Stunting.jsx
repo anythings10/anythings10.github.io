@@ -1,4 +1,3 @@
-import React from "react";
 import { dataStunting } from "../../utils/dummy";
 import VerticalChart from "../../components/Chart/VerticalChart";
 import { Typografi } from "../../components/Components";

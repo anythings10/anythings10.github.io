@@ -1,4 +1,3 @@
-import React from "react";
 import { Typografi } from "../Components";
 
 function FlatCardItem({ item }) {

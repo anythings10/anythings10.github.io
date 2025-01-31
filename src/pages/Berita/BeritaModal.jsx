@@ -1,4 +1,3 @@
-import React from "react";
 import { useBerita } from "../../utils/context/BeritaProvider";
 
 const BeritaModal = ({ isOpen, onClose }) => {
