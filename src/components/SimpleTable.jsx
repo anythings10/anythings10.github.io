@@ -13,7 +13,7 @@ const SimpleTable = ({ items }) => {
           </tr>
         </thead>
       </table>
-      <div className="max-h-64 overflow-y-auto">
+      <div className="max-h-[350px] overflow-y-auto">
         <table className="w-full table-fixed">
           <tbody className="bg-white">
             {items.map(({ pekerjaan, jumlah }, index) => (

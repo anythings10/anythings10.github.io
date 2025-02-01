@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav
       className={`sticky top-0 z-50 ${
         isScrolled
-          ? "backdrop-filter text-gray-900 bg-indigo-700 backdrop-blur-lg bg-opacity-30 border-b border-gray-400 shadow-sm"
+          ? "backdrop-filter text-gray-900 bg-indigo-900 backdrop-blur-lg bg-opacity-30 border-b border-gray-400 shadow-sm"
           : "bg-transperent text-gray-100  bg-indigo-700"
       }`}>
       <div className="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
