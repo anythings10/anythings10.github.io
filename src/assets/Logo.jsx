@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../assets/logo-gorut.svg";
-import { Typografi } from "../components/Components";
 const Logo = () => {
   return (
     <div className="flex items-center">

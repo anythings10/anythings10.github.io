@@ -6,7 +6,7 @@ const ButtonCardList = ({ item }) => {
   const { icon: Icon, name, desc, bgColor, path, image, date } = item;
   return (
     <div className="group relative flex flex-col overflow-hidden rounded-lg bg-gray-300 backdrop-blur-md bg-opacity-30 shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl">
-      <div className="flex-1 p-6">
+      <div className="flex-1 p-6 space-y-3">
         {image && (
           <img
             src={image}
@@ -17,7 +17,7 @@ const ButtonCardList = ({ item }) => {
         {Icon && (
           <Fragment>
             <span
-              className={`absolute top-6 left-6 z-0 h-16 w-16 rounded-full ${bgColor} transition-transform duration-300 group-hover:scale-150`}></span>
+              className={`absolute top-6 left-6 z-0 h-16 w-16 rounded-full ${bgColor} transition-transform duration-300 group-hover:scale-150 mt-3`}></span>
             <div className="relative z-10">
               <span
                 className={`flex h-16 w-16 items-center justify-center rounded-full ${bgColor} transition-colors duration-300 group-hover:bg-opacity-80`}>
