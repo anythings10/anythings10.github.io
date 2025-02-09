@@ -43,14 +43,14 @@ export const visitData = [
   {
     icon: PencilIcon,
     name: "Cek DPT Online",
-    path: "/cek-dpt-online",
+    path: "https://cekdptonline.kpu.go.id/",
     desc: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vel consectetur interdum, nisi nisi",
     bgColor: "bg-merah",
   },
   {
     icon: MapIcon,
     name: "Profil Desa",
-    path: "/profil-desa",
+    path: "/profile-desa",
     desc: "lorem ipsum dolor sit amet,  , nisi vel consectetur interdum, nisi nisi",
     bgColor: "bg-kuning",
   },

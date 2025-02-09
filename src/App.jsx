@@ -13,6 +13,7 @@ import ApbDes from "./pages/ApbDes/ApbDes";
 import Beranda from "./pages/Beranda/Beranda";
 import ProfileDesa from "./pages/ProfileDesa/ProfileDesa";
 import Idm from "./pages/Infografis/Idm";
+import Ppid from "./pages/ppid/Ppid";
 
 const App = () => {
   useAOS();
@@ -24,6 +25,8 @@ const App = () => {
         <Route path="/" element={<Beranda />} />
         <Route path="/profile-desa" element={<ProfileDesa />} />
         <Route path="/berita" element={<Berita />} />
+        <Route path="/ppid" element={<Ppid />} />
+
         <Route path="/infografis" element={<Infografis />}>
           <Route path="/infografis" element={<Kependudukan />} />
           <Route path="/infografis/stunting" element={<Stunting />} />
