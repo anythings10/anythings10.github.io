@@ -20,7 +20,7 @@ const BeritaList = ({ item, onOpenModal }) => {
   };
 
   return (
-    <div className="bg-white rounded shadow-md p-4 flex flex-col h-full space-y-2 border border-gray-200">
+    <div className="bg-white rounded shadow-md p-4 flex flex-col h-full border border-gray-200 space-y-3">
       <header className="flex items-center mb-2">
         <div>
           <Typografi

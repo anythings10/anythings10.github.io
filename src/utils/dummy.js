@@ -13,6 +13,29 @@ import bgKades from "../assets/kades-bg.png";
 import logoBg from "../assets/image-10.png";
 import demoBg from "../assets/image-9.png";
 
+//gambar untuk gallery desa
+import image1 from "../assets/image-16.jpg";
+import image2 from "../assets/image-8.jpeg";
+import image3 from "../assets/image-7.jpeg";
+import image4 from "../assets/image-6.jpg";
+import image5 from "../assets/image-5.jpg";
+import image6 from "../assets/image-4.jpg";
+import image7 from "../assets/image-3.jpeg";
+
+//gambar untuk perangkat desa
+import kades from "../assets/kades.png";
+import sekretaris from "../assets/seki.png";
+import perencanaan from "../assets/perencanaan.png";
+import keuangan from "../assets/keuangan.png";
+
+//gambar untuk berita desa
+import berita2 from "../assets/image-1.png";
+import berita3 from "../assets/berita.png";
+import berita4 from "../assets/image-31.jpg";
+const sambutan = `Selamat datang di website profil Desa Alata Karya,
+Alhamdulillah, pada hari ini kita resmi meluncurkan website profil Desa Alata Karya. Kehadiran website ini merupakan wujud nyata dari komitmen Pemerintah Desa Alata Karya untuk memberikan pelayanan publik yang lebih mudah, cepat,dan transparan.
+Dengan adanya website ini, masyarakat dapat mengakses berbagai informasi terkait dengan pelayanan desa, pengurusan administrasi, serta program-program pembangunan yang sedang berjalan. Kami berharap, website ini dapat mempermudah masyarakat dalam mendapatkan informasi yang dibutuhkan dan mempercepat proses pelayanan.`;
+
 export const NavItems = [
   {
     name: "Beranda",
@@ -104,15 +127,15 @@ export const highLight2 = [
 export const totalPenduduk = [
   {
     title: "Total Penduduk",
-    value: "1658",
+    value: "1.239",
   },
   {
     title: "Laki-laki",
-    value: "782",
+    value: "652",
   },
   {
     title: "Perempuan",
-    value: "876",
+    value: "614",
   },
   {
     title: "Kepala Keluarga",
@@ -122,11 +145,11 @@ export const totalPenduduk = [
 export const apbDes = [
   {
     title: "Pendapatan Desa",
-    total: "Rp. 23,435,342.00",
+    total: "Rp.-",
   },
   {
     title: "Dana Desa",
-    total: "Rp. 892,812,213.00",
+    total: "Rp.674.741.000",
   },
 ];
 
@@ -147,31 +170,27 @@ export const idmList = [
 export const userData = [
   {
     id: 1,
-    image:
-      "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    name: "Colby Covington",
-    desc: "Kepala Desa",
+    image: kades,
+    name: "SOFYAN BASIR MAHMUD",
+    desc: "KEPALA DESA",
   },
   {
     id: 2,
-    image:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=2864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    name: "Jane Smith",
-    desc: "Sekeretaris",
+    image: sekretaris,
+    name: "KARTIN NAKODA",
+    desc: "SEKERTARIS DESA",
   },
   {
     id: 3,
-    image:
-      "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=2662&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    name: "Michael Brown",
-    desc: "Data Scientist",
+    image: perencanaan,
+    name: "RATNA MINGGU",
+    desc: "KAUR UMUM & PERENCANAAN",
   },
   {
     id: 4,
-    image:
-      "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    name: "Aljamin Davis",
-    desc: "Product Manager",
+    image: keuangan,
+    name: "YAYU AFRIANI MOHA",
+    desc: "KAUR KEUANGAN",
   },
   {
     id: 5,
@@ -248,221 +267,160 @@ export const userData = [
 ];
 export const galleryDesa = [
   {
-    title: "Explore Nature",
-    description: "Discover the beauty of the natural world",
-    image:
-      "https://images.unsplash.com/photo-1469474968028-56623f02e42e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxfHxuYXR1cmV8ZW58MHwwfHx8MTcyMTA0MjYwMXww&ixlib=rb-4.0.3&q=80&w=1080",
+    title: "Desa Alata Karya",
+    description:
+      "Salah satu desa di Kabupaten Gorontalo Utara yang berada di Kecamatan Kwandang",
+    image: image1,
     span: "md:col-span-2 md:row-span-2",
   },
   {
-    title: "Culinary Delights",
-    image:
-      "https://images.unsplash.com/photo-1493770348161-369560ae357d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw2fHxmb29kfGVufDB8MHx8fDE3MjEwNDI2MTR8MA&ixlib=rb-4.0.3&q=80&w=1080",
+    title: "Kegiatan Pelatihan ",
+    image: image2,
   },
   {
-    title: "Tech Innovations",
-    image:
-      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw1fHx0ZWNobm9sb2d5fGVufDB8MHx8fDE3MjEwNDI2Mjh8MA&ixlib=rb-4.0.3&q=80&w=1080",
+    title: "Kegiatan Pelatihan ",
+    image: image3,
   },
   {
-    title: "Travel Adventures",
-    image:
-      "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw1fHx0cmF2ZWx8ZW58MHwwfHx8MTcyMTA0MjY0MXww&ixlib=rb-4.0.3&q=80&w=1080",
+    title: "Kegiatan Pelatihan ",
+    image: image4,
   },
   {
-    title: "Artistic Expressions",
-    image:
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxfHxhcnR8ZW58MHwwfHx8MTcyMTA0MjY5Nnww&ixlib=rb-4.0.3&q=80&w=1080",
+    title: "Kegiatan Pelatihan ",
+    image: image5,
   },
   {
-    title: "Swimming",
-    image:
-      "https://images.unsplash.com/photo-1530549387789-4c1017266635?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwyfHxzd2ltbWluZ3xlbnwwfDB8fHwxNzIxMDQzMjkxfDA&ixlib=rb-4.0.3&q=80&w=1080",
+    title: "Rapat Kepala Desa",
+    image: image6,
   },
   {
-    title: "Chess",
-    image:
-      "https://images.unsplash.com/photo-1611195974226-a6a9be9dd763?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHwxMnx8Y2hlc3N8ZW58MHwwfHx8MTcyMTA0MzI0Nnww&ixlib=rb-4.0.3&q=80&w=1080",
-  },
-  {
-    title: "Football",
-    image:
-      "https://images.unsplash.com/photo-1553778263-73a83bab9b0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw1fHxmb290YmFsbHxlbnwwfDB8fHwxNzIxMDQzMjExfDA&ixlib=rb-4.0.3&q=80&w=1080",
-  },
-  {
-    title: "Cricket",
-    image:
-      "https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw3fHxjcmlja2V0fGVufDB8MHx8fDE3MjEwNDMxNTh8MA&ixlib=rb-4.0.3&q=80&w=1080",
+    title: "Rapat Kepala Desa",
+    image: image7,
   },
 ];
+
+// paragragf berita
+const desc1 = `Gorontalo Utara, 22 Agustus 2024 – Desa Alata Karya, yang terletak di Kabupaten Gorontalo Utara, mengambil langkah maju dalam upaya memperkuat pelayanan publik dan pemberdayaan masyarakat melalui pelatihan transformasi digital yang diadakan pada tanggal 14-16 Agustus 2024. Pelatihan ini diinisiasi oleh Pemerintah desa Alata Karya .
+
+Meningkatkan Kualitas Pelayanan dan Keterlibatan Masyarakat
+
+Pelatihan ini bertujuan untuk meningkatkan kemampuan aparatur desa dan masyarakat setempat dalam memanfaatkan teknologi digital untuk mempercepat proses administrasi dan meningkatkan transparansi serta efisiensi pelayanan publik. Selama dua hari, peserta yang terdiri dari aparat desa, pengelolaan data desa, serta cara memanfaatkan media sosial dan platform online untuk komunikasi yang lebih efektif dengan masyarakat.
+
+
+Kepala Desa Alata Karya, dalam sambutannya menekankan pentingnya transformasi digital sebagai kunci dalam meningkatkan kualitas pelayanan desa. “Dengan adanya pelatihan ini, kita berharap Desa Alata Karya dapat menjadi contoh bagi desa-desa lain di Gorontalo Utara dalam penerapan teknologi untuk pelayanan publik yang lebih baik. Ini adalah langkah awal menuju desa mandiri yang dapat mendukung pembangunan berkelanjutan dan kesejahteraan masyarakat,” ujarnya.
+
+Pelatihan ini mencakup berbagai materi, termasuk pengenalan sistem informasi desa, manajemen data berbasis digital, serta cara mengintegrasikan teknologi dengan kegiatan pelayanan sehari-hari. Selain itu, peserta juga diberikan sesi praktek langsung untuk mengoperasikan aplikasi dan perangkat digital yang akan digunakan dalam kegiatan administrasi dan pelayanan di desa.
+
+Setelah pelatihan ini, Pemerintah Desa Alata Karya berencana untuk mulai mengimplementasikan teknologi yang telah diperkenalkan selama pelatihan dalam sistem administrasi dan pelayanan desa. Selain itu, akan dilakukan evaluasi berkala untuk memastikan bahwa transformasi digital berjalan sesuai rencana dan memberikan manfaat nyata bagi masyarakat.
+
+Dengan berakhirnya pelatihan ini, Desa Alata Karya siap memulai babak baru dalam pengelolaan pelayanan publik yang lebih modern dan efektif, mendukung visi besar Kabupaten Gorontalo Utara untuk mewujudkan desa-desa yang lebih maju dan mandiri di masa depan.
+
+Editor : jurnalis Alata (AH)`;
+const desc2 = `Radarsuara.com, Gorontalo Utara – Kementerian Pertanian (Kementan) terus mendorong program Perluasan Areal Tanam (PAT) Padi diantaranya dengan program pompanisasi untuk mendukung kenaikan produktivitas padi.
+
+Menteri Pertanian (Mentan) Andi Amran Sulaiman, menyampaikan dalam berbagai kesempatan, jika ancaman krisis pangan harus diantisipasi dengan cepat.
+
+“Jika tidak ada langkah cepat dan strategis, maka akan berakibat fatal pada seluruh sektor, untuk itu seluruh insan pertanian harus bergerak cepat, agar krisis pangan tersebut dapat dicegah secepat mungkin” ucapnya. 
+
+Pelaksana Tugas (Plt). Kepala Badan Penyuluhan dan Pengembangan Sumber Daya Manusia Pertanian (BPPSDMP) Kementan, Dedi Nursyamsi menyampaikan dalam berbagai kesempatan bahwa “Sektor pertanian perlu ditangani dengan serius dan diperlukan kolaborasi yang harmoni dalam menyelesaikan permasalahan yang ada”.
+
+Dedi mengajak para pihak untuk berkolaborasi meningkatkan produksi, Perluasan Areal Tanam (PAT) dan meningkatkan Indeks Pertanaman (IP). 
+
+Kamis (1/08/2024) Badan Penyuluhan dan Pengembangan Sumber Daya Manusia Pertanian (BPPSDMP) Kementan melalui Pusat Pendidkan Pertanian (Pusdiktan) bersama Pemda Gorontalo Utara melakukan uji coba pompanisasi di desa  Pontolo dan Alata Karya, Kecamatan Kwandang, Kabupaten Gorontalo Utara, diharapkan mampu memberi solusi untuk pengairan sawah dan meningkatkan produktivitas padi. 
+
+Idha Widi Arsanti, Kepala Pusat Pendidikan dalam berbagai kesempatan menyampaikan kepada para pihak agar selalu fokus bersinergi untuk program peningkatan produktifitas pangan. “Kita selalu berupaya agar tiap waktu ada penambahan Perluasan Areal Tanam, ungkap Ida.
+
+Sapto Rini, Ketua Kelompok Program dan Kerjasama Pusdiktan yang merupakan penanggung jawab wilayah Gorontalo Utara menyampaikan bahwa diperlukan keseriusan dalam pendampingan program PAT “Pompanisasi ini diperlukan pengecekan alat pompa berfungsi dengan baik untuk mendukung Perluasan Areal Tanam padi dan hal ini sangat penting dalam meningkatkan produksi pertanian”.
+
+Kelompok tani penerima bantuan pompa dan pendampingan uji pemanfaatan kali ini adalah Poktan Bunga Padi Desa Alata Karya dan Poktan Mandiri Desa Pontolo, Kecamatan Kwandang, Kabupaten Gorontalo Utara. (mry)`;
+const desc3 = `Dalam kegiatan diawali ucapan terimakasi kepada pihak Kepolisian dengan adanya kegiatan Jumat Curhat ini besar harapan kami dapat mendengarkan keluhan masyarakat secara langsung dan bisa segera ditanggapi. Ucap Kepala Desa 
+
+Apresiasi kepada Bapak Waka polres yang telah menyelenggarakan program Jumat Curhat ini karena kami masyarakat desa Alata Karya dapat bertatap muka langsung dengan pimpinan Polres Gorontalo Utara dalam hal ini Wakapolres langsung mendengarkan keluhan masyarakat khususnya Desa Alata Karya. Ucapnya 
+
+Dalam Kesempatan Jum’at Curhat Waka Polres Ucapan terimakasih untuk waktu yang telah di berikan kepada kami melaksanakan jumat curhat di tempat ini.
+
+Besar harapan kami dalam program Jumat curhat yang insya Allah bisa menjadi wadah warga masyarakat untuk menyampaikan berbagai keluhan sehingga hal ini bisa memperbaiki kinerja dan kemajuan institusi Polri khusunya Polres Gorontalo Utara.
+
+Dari kegiatan tersebut beberapa hal yang menjadi masukan serta pertanyaan dari masyarakat.
+
+Banyaknya pengendara roda 2 terutama anak muda, masih banyak yang sering ugal-ugalan di jalanan.
+
+Masih banyaknya kenderaan yang mengunakan knalpot racing. 
+
+Adanya keluhan kelangkaan pupuk yang di gunakan oleh petani.
+
+Mengenai BBM untuk para Nelayan yang ada di desa Alata karya yang susah mendapatkan BBM khusunya BBM alat pertanian. Ucap Masyarakat 
+
+Tanggapan Wakapolres Gorontalo Utara Saya menyarankan kepada masyarakat agar bisa membuat polisi tidur yang bukan permanen agar bisa mengurangi atau membatasi kecepatan kenderaan yang lewat dan Insyaallah meminimalisir adanya laka lantas.
+
+Mengenai permasalahan knalpot racing kami pihak kepolisian sudah melakukan penindakan, untuk polres juga kami menargetkan setiap minggunya ada sekitar 50 knalpot racing yang akan kami tindaki secara Tegas.Ucap Waka 
+
+Mengenai kelangkaan pupuk saya akan memerintahkan kepada kasat intelkam agar bisa memerintahkan anggotanya untuk melakukan penyelidikan terkait kelangkaan pupuk.
+
+Terkait susahnya para nelayan mendapatkan BBM agar bisa dikoordinasikan dengan dinas perikanan agar bisa dibuatkan surat rekomendasi ke SPBU.`;
+const desc4 = `Gorontalo Utara, 22 Agustus 2024 – Desa Alata Karya di Kabupaten Gorontalo Utara terus menunjukkan komitmennya dalam meningkatkan perekonomian lokal melalui pengembangan Usaha Mikro, Kecil, dan Menengah (UMKM). Berbagai inisiatif dan program telah diluncurkan untuk memperkuat UMKM di desa ini, dengan tujuan meningkatkan kesejahteraan masyarakat dan menciptakan lapangan kerja baru.
+
+Sebagai bagian dari upaya tersebut, Pemerintah Desa Alata Karya bekerja sama dengan Dinas Koperasi dan UMKM Kabupaten Gorontalo Utara, serta beberapa lembaga non-pemerintah, mengadakan serangkaian pelatihan dan pendampingan bagi pelaku UMKM lokal. Pelatihan ini mencakup berbagai aspek penting seperti manajemen usaha, pengelolaan keuangan, pemasaran digital, serta peningkatan kualitas produk.
+
+Kepala Desa Alata Karya, H. Ahmad Laode, menyatakan bahwa pengembangan UMKM merupakan salah satu prioritas utama desa untuk meningkatkan taraf hidup masyarakat. “UMKM adalah tulang punggung perekonomian desa. Dengan memberikan pelatihan dan pendampingan yang tepat, kami berharap para pelaku usaha kecil di desa ini dapat lebih mandiri, kreatif, dan kompetitif,” ujarnya.
+
+Dalam program ini, desa juga menggandeng sektor swasta dan akademisi untuk membantu UMKM dalam mengakses pasar yang lebih luas. Beberapa perusahaan lokal memberikan bantuan berupa modal usaha dan fasilitas promosi, sementara perguruan tinggi menyediakan tenaga ahli untuk mendampingi pelaku usaha dalam mengembangkan produk yang inovatif dan memiliki daya saing.
+
+Dr. Iwan Budiarto, salah satu dosen dari Universitas Negeri Gorontalo yang terlibat dalam program ini, menjelaskan bahwa sinergi antara pemerintah, akademisi, dan pelaku usaha sangat penting untuk mendorong pertumbuhan UMKM. “Dengan kolaborasi ini, kami tidak hanya memberikan teori, tetapi juga praktik langsung di lapangan, sehingga para pelaku UMKM dapat merasakan manfaat nyata dari program ini,” jelasnya.
+
+Salah satu fokus utama pengembangan UMKM di Desa Alata Karya adalah memperkuat pemasaran digital. Melalui pelatihan yang diberikan, para pelaku UMKM didorong untuk memanfaatkan platform e-commerce dan media sosial untuk memasarkan produk mereka. Pemerintah desa juga menyediakan fasilitas internet gratis di beberapa titik desa untuk mendukung kegiatan ini.
+
+Siti Aisyah, salah satu pelaku UMKM di Desa Alata Karya, mengaku sangat terbantu dengan adanya pelatihan ini. “Saya sekarang bisa memasarkan produk kerajinan tangan saya melalui media sosial dan mendapatkan lebih banyak pelanggan. Ini sangat membantu meningkatkan pendapatan keluarga kami,” katanya.
+
+Dengan berjalannya program pengembangan UMKM ini, Desa Alata Karya diharapkan dapat menjadi contoh bagi desa-desa lain di Kabupaten Gorontalo Utara dalam hal pengelolaan dan pengembangan ekonomi lokal. Pemerintah desa berkomitmen untuk terus memberikan dukungan dan pendampingan kepada pelaku UMKM agar mereka dapat berkembang dan berkontribusi lebih besar terhadap perekonomian desa.
+
+Selain itu, desa juga berencana untuk memperluas akses pasar bagi produk-produk UMKM melalui partisipasi dalam berbagai pameran dan bazar baik di tingkat regional maupun nasional. Upaya ini diharapkan dapat membuka peluang baru bagi UMKM Desa Alata Karya untuk menembus pasar yang lebih luas.
+
+Editor : Jurnalis Alata Alata (AH)`;
 export const beritaDummy = [
   {
     id: 1,
-    name: "Hutan Amazon Terancam Deforestasi",
-    desc: "Deforestasi di Hutan Amazon meningkat drastis akibat penebangan liar dan ekspansi pertanian.",
-    image:
-      "https://images.unsplash.com/photo-1694614360428-608d018bb054?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Desa Alata Karya Siap Jadi Desa Cerdas Melalui Pelatihan Transformasi Digital",
+    desc: desc1,
+    image: image2,
     category: "Lingkungan",
-    date: "2025-01-23",
+    date: "19 Agustus 2024",
     path: "/berita",
   },
   {
     id: 2,
-    name: "Teknologi AI Mulai Menggantikan Pekerjaan Manusia",
-    desc: "Kemajuan dalam kecerdasan buatan (AI) membawa dampak besar terhadap industri dan pekerjaan manusia.",
-    image:
-      "https://images.unsplash.com/photo-1616161560065-4bbfa1103fde?q=80&w=2714&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Tingkatkan Produktivitas Padi, Kementan Pastikan  Pompa di Gorontalo Utara",
+    desc: desc2,
+    image: berita2,
     category: "Teknologi",
-    date: "2025-01-22",
+    date: "3 September 2024",
     path: "/berita",
   },
   {
     id: 3,
-    name: "Timnas Indonesia Lolos ke Final Piala Asia",
-    desc: "Timnas Indonesia berhasil mencapai final setelah mengalahkan tim kuat Jepang di semifinal.",
-    image:
-      "https://images.unsplash.com/photo-1527871369852-eb58cb2b54e2?q=80&w=2831&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Polres Gorontalo Utara laksanakan Jum’at Curhat di desa Alata Karya ",
+    desc: desc3,
+    image: berita3,
     category: "Olahraga",
-    date: "2025-01-21",
+    date: "3 September 2024",
     path: "/berita",
   },
   {
     id: 4,
-    name: "Krisis Pangan Global Mengancam Negara Berkembang",
-    desc: "Kelangkaan bahan pangan dan kenaikan harga berdampak pada kesejahteraan masyarakat di berbagai negara.",
-    image:
-      "https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Pengembangan UMKM di Desa Alata Karya: Upaya Meningkatkan Ekonomi Lokal",
+    desc: desc4,
+    image: berita4,
     category: "Ekonomi",
-    date: "2025-01-20",
-    path: "/berita",
-  },
-  {
-    id: 5,
-    name: "Kebakaran di Pulau Bali Mengancam Kesejahteraan Masyarakat",
-    desc: "Kebakaran di Pulau Bali menyebabkan bencana alam yang membahayakan kesejahteraan masyarakat di sekitar pulau.",
-    image:
-      "https://plus.unsplash.com/premium_photo-1672759455907-bdaef741cd88?q=80&w=2916&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    category: "Kesehatan",
-    date: "2025-01-19",
-    path: "/berita",
-  },
-  {
-    id: 6,
-    name: "Pemerintah Mengeluarkan Pembatasan Pajak di Indonesia",
-    desc: "Pemerintah mengeluarkan pembatasan pajak untuk mengurangi ketidakmampuan masyarakat di sekitar pulau.",
-    image:
-      "https://images.unsplash.com/photo-1503694978374-8a2fa686963a?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    category: "Ekonomi",
-    date: "2025-01-18",
-    path: "/berita",
-  },
-  {
-    id: 7,
-    name: "Pemerintah Mengeluarkan Pembatasan Pajak di Indonesia",
-    desc: "Pemerintah mengeluarkan pembatasan pajak untuk mengurangi ketidakmampuan masyarakat di sekitar pulau.",
-    image:
-      "https://images.unsplash.com/photo-1508921340878-ba53e1f016ec?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    category: "Ekonomi",
-    date: "2025-01-17",
-    path: "/berita",
-  },
-  {
-    id: 8,
-    name: "Pemerintah Mengeluarkan Pembatasan Pajak di Indonesia",
-    desc: "Pemerintah mengeluarkan pembatasan pajak untuk mengurangi ketidakmampuan masyarakat di sekitar pulau.",
-    image:
-      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    category: "Ekonomi",
-    date: "2025-01-16",
-    path: "/berita",
-  },
-  {
-    id: 9,
-    name: "Pemerintah Mengeluarkan Pembatasan Pajak di Indonesia",
-    desc: "Pemerintah mengeluarkan pembatasan pajak untuk mengurangi ketidakmampuan masyarakat di sekitar pulau.",
-    image:
-      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    category: "Ekonomi",
-    date: "2025-01-16",
-    path: "/berita",
-  },
-  {
-    id: 10,
-    name: "Pemerintah Mengeluarkan Pembatasan Pajak di Indonesia",
-    desc: "Pemerintah mengeluarkan pembatasan pajak untuk mengurangi ketidakmampuan masyarakat di sekitar pulau.",
-    image:
-      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    category: "Ekonomi",
-    date: "2025-01-16",
-    path: "/berita",
-  },
-  {
-    id: 11,
-    name: "Pemerintah Mengeluarkan Pembatasan Pajak di Indonesia",
-    desc: "Pemerintah mengeluarkan pembatasan pajak untuk mengurangi ketidakmampuan masyarakat di sekitar pulau.",
-    image:
-      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    category: "Ekonomi",
-    date: "2025-01-16",
-    path: "/berita",
-  },
-  {
-    id: 12,
-    name: "Pemerintah Mengeluarkan Pembatasan Pajak di Indonesia",
-    desc: "Pemerintah mengeluarkan pembatasan pajak untuk mengurangi ketidakmampuan masyarakat di sekitar pulau.",
-    image:
-      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    category: "Ekonomi",
-    date: "2025-01-16",
-    path: "/berita",
-  },
-  {
-    id: 13,
-    name: "Pemerintah Mengeluarkan Pembatasan Pajak di Indonesia",
-    desc: "Pemerintah mengeluarkan pembatasan pajak untuk mengurangi ketidakmampuan masyarakat di sekitar pulau.",
-    image:
-      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    category: "Ekonomi",
-    date: "2025-01-16",
-    path: "/berita",
-  },
-  {
-    id: 14,
-    name: "Pemerintah Mengeluarkan Pembatasan Pajak di Indonesia",
-    desc: "Pemerintah mengeluarkan pembatasan pajak untuk mengurangi ketidakmampuan masyarakat di sekitar pulau.",
-    image:
-      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    category: "Ekonomi",
-    date: "2025-01-16",
-    path: "/berita",
-  },
-  {
-    id: 15,
-    name: "Pemerintah Mengeluarkan Pembatasan Pajak di Indonesia",
-    desc: "Pemerintah mengeluarkan pembatasan pajak untuk mengurangi ketidakmampuan masyarakat di sekitar pulau.",
-    image:
-      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    category: "Ekonomi",
-    date: "2025-01-16",
-    path: "/berita",
-  },
-  {
-    id: 16,
-    name: "Pemerintah Mengeluarkan Pembatasan Pajak di Indonesia",
-    desc: "Pemerintah mengeluarkan pembatasan pajak untuk mengurangi ketidakmampuan masyarakat di sekitar pulau.",
-    image:
-      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    category: "Ekonomi",
-    date: "2025-01-16",
+    date: "23 Agustus 2024",
     path: "/berita",
   },
 ];
 
 export const heroDummy = [
   {
-    name: "Colby Covington, U.FC",
+    name: "Sofyan Basir Mahmud",
     title: "Sabutan Kepala Desa",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod, lacus eget aliquamtincidunt, lorem nisl aliquet nunc, sit amet ornare nunc nisi euismod lacus. Vestibulum euismod, lacus eget aliquam tincidunt,lorem nisl aliquet nunc, sit amet ornare nunc nisi euismod lacu",
+    desc: sambutan,
     image: bgKades,
   },
 ];
@@ -662,120 +620,6 @@ export const apbDummyData = [
     pembiayaan: { penerimaan: 35000000, pengeluaran: 20000000 },
     surplus: 15000000,
     allYears: [2024, 2023, 2022],
-  },
-];
-
-export const newsData = [
-  {
-    id: 1,
-    title: "AI Mengubah Dunia Teknologi: Dampak dan Masa Depan",
-    description:
-      "Artificial Intelligence (AI) semakin berkembang dan mulai memengaruhi berbagai sektor kehidupan manusia. Dari industri manufaktur hingga layanan kesehatan, AI membantu meningkatkan efisiensi serta mengurangi kesalahan manusia. Banyak perusahaan teknologi besar berlomba-lomba mengembangkan kecerdasan buatan yang lebih canggih, dengan tujuan menciptakan sistem yang mampu berpikir dan belajar secara mandiri. Namun, di balik semua manfaatnya, ada pula tantangan yang harus dihadapi, seperti masalah etika dan ancaman pengangguran akibat otomatisasi pekerjaan.",
-    author: "Admin",
-    category: "Teknologi",
-    date: 10,
-    month: "Januari",
-    image:
-      "https://source.unsplash.com/600x300/?artificial-intelligence,technology",
-  },
-  {
-    id: 2,
-    title: "Perkembangan Terbaru di Dunia Web Development",
-    description:
-      "Industri web development terus berkembang pesat, dengan berbagai teknologi baru yang muncul setiap tahunnya. React, Vue, dan Svelte kini bersaing ketat dalam menawarkan solusi pengembangan front-end yang lebih efisien. Sementara itu, backend development juga mengalami inovasi dengan penggunaan serverless architecture dan microservices. Para developer diharapkan untuk terus belajar dan beradaptasi dengan perubahan ini agar tetap relevan di industri yang sangat dinamis ini.",
-    author: "Admin",
-    category: "Web Development",
-    date: 12,
-    month: "Januari",
-    image: "https://source.unsplash.com/600x300/?web,development",
-  },
-  {
-    id: 3,
-    title: "Startup Teknologi di Indonesia Kian Bertumbuh",
-    description:
-      "Indonesia kini menjadi salah satu negara dengan pertumbuhan startup teknologi yang sangat pesat. Banyak startup lokal yang sukses mendapatkan pendanaan dari investor asing, terutama di bidang fintech, e-commerce, dan edutech. Namun, di tengah perkembangan pesat ini, tantangan seperti regulasi pemerintah dan persaingan pasar yang ketat masih menjadi kendala utama bagi banyak startup untuk berkembang lebih jauh.",
-    author: "Admin",
-    category: "Bisnis",
-    date: 15,
-    month: "Januari",
-    image: "https://source.unsplash.com/600x300/?startup,business",
-  },
-  {
-    id: 4,
-    title: "Cybersecurity: Cara Melindungi Data Pribadi Anda",
-    description:
-      "Keamanan data pribadi menjadi isu yang semakin penting di era digital saat ini. Dengan semakin banyaknya kasus kebocoran data dan serangan siber, pengguna internet harus lebih waspada dalam menjaga informasi pribadi mereka. Beberapa langkah yang bisa dilakukan antara lain menggunakan password yang kuat, mengaktifkan autentikasi dua faktor, dan tidak sembarangan mengklik tautan mencurigakan. Selain itu, perusahaan juga harus berinvestasi dalam sistem keamanan yang lebih canggih untuk melindungi data pelanggan mereka.",
-    author: "Admin",
-    category: "Keamanan",
-    date: 18,
-    month: "Januari",
-    image: "https://source.unsplash.com/600x300/?cybersecurity,hacking",
-  },
-  {
-    id: 5,
-    title: "Masa Depan Cryptocurrency di Tahun 2025",
-    description:
-      "Cryptocurrency terus menjadi topik hangat di dunia keuangan. Meskipun masih mengalami fluktuasi harga yang tinggi, banyak investor yang tetap optimis terhadap masa depan Bitcoin dan altcoin lainnya. Beberapa negara mulai merancang regulasi yang lebih jelas terkait aset digital ini, sementara perusahaan besar seperti Tesla dan Square telah mulai menerima pembayaran menggunakan crypto. Namun, masih ada tantangan besar yang harus diatasi, termasuk isu keamanan, adopsi massal, dan dampaknya terhadap lingkungan.",
-    author: "Admin",
-    category: "Keuangan",
-    date: 21,
-    month: "Januari",
-    image: "https://source.unsplash.com/600x300/?cryptocurrency,bitcoin",
-  },
-  {
-    id: 6,
-    title: "Peran Machine Learning dalam Dunia Medis",
-    description:
-      "Teknologi machine learning kini semakin banyak diterapkan dalam dunia kesehatan. Dengan kemampuan untuk menganalisis data dalam jumlah besar, AI mampu membantu dokter dalam membuat diagnosa yang lebih akurat dan cepat. Contohnya, beberapa rumah sakit telah menggunakan AI untuk mendeteksi kanker pada tahap awal melalui analisis gambar medis. Selain itu, AI juga digunakan untuk mengembangkan obat-obatan baru dengan proses yang lebih cepat dibandingkan metode konvensional.",
-    author: "Admin",
-    category: "Kesehatan",
-    date: 24,
-    month: "Januari",
-    image: "https://source.unsplash.com/600x300/?healthcare,ai",
-  },
-  {
-    id: 7,
-    title: "Teknologi 5G: Manfaat dan Tantangan",
-    description:
-      "Jaringan 5G telah mulai diimplementasikan di berbagai negara, termasuk Indonesia. Dengan kecepatan internet yang jauh lebih tinggi dibandingkan 4G, teknologi ini diharapkan dapat membuka peluang baru dalam berbagai sektor, seperti Internet of Things (IoT), kendaraan otonom, dan smart cities. Namun, di balik potensinya yang besar, ada beberapa tantangan yang harus dihadapi, seperti biaya infrastruktur yang tinggi dan kekhawatiran terkait kesehatan akibat radiasi gelombang elektromagnetik.",
-    author: "Admin",
-    category: "Teknologi",
-    date: 27,
-    month: "Januari",
-    image: "https://source.unsplash.com/600x300/?5g,network",
-  },
-  {
-    id: 8,
-    title: "Tips Meningkatkan Performa Website",
-    description:
-      "Kecepatan website merupakan faktor yang sangat penting dalam pengalaman pengguna dan peringkat SEO. Beberapa cara untuk meningkatkan performa website antara lain adalah dengan mengoptimalkan gambar, menggunakan teknik lazy loading, serta memanfaatkan Content Delivery Network (CDN). Selain itu, pemilihan hosting yang tepat juga berperan besar dalam menentukan kecepatan akses website. Dengan menerapkan praktik terbaik ini, website dapat menjadi lebih responsif dan memberikan pengalaman terbaik bagi pengunjung.",
-    author: "Admin",
-    category: "Web Development",
-    date: 30,
-    month: "Januari",
-    image: "https://source.unsplash.com/600x300/?website,speed",
-  },
-  {
-    id: 9,
-    title: "Evolusi Desain UI/UX di Tahun 2024",
-    description:
-      "Desain UI/UX terus mengalami perubahan seiring dengan perkembangan teknologi dan kebutuhan pengguna. Pada tahun 2024, beberapa tren yang diprediksi akan mendominasi adalah desain minimalis, dark mode, serta penggunaan animasi mikro untuk meningkatkan interaksi pengguna. Selain itu, AI juga mulai digunakan dalam proses desain, membantu desainer untuk menghasilkan tampilan yang lebih personal dan intuitif berdasarkan data pengguna.",
-    author: "Admin",
-    category: "Desain",
-    date: 2,
-    month: "Februari",
-    image: "https://source.unsplash.com/600x300/?uiux,design",
-  },
-  {
-    id: 10,
-    title: "Metaverse dan Masa Depan Interaksi Digital",
-    description:
-      "Metaverse kini menjadi perbincangan hangat di dunia teknologi. Konsep dunia virtual yang dapat diakses melalui perangkat VR dan AR ini diyakini akan mengubah cara manusia berinteraksi, bekerja, dan bermain. Beberapa perusahaan besar seperti Meta (Facebook) dan Microsoft telah menginvestasikan miliaran dolar untuk mengembangkan ekosistem metaverse mereka. Namun, masih ada banyak tantangan yang harus diatasi, seperti masalah privasi, keamanan, serta kesiapan infrastruktur teknologi yang mendukung konsep ini.",
-    author: "Admin",
-    category: "Teknologi",
-    date: 5,
-    month: "Februari",
-    image: "https://source.unsplash.com/600x300/?metaverse,vr",
   },
 ];
 

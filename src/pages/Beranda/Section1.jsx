@@ -16,7 +16,7 @@ const Section1 = () => {
       />
       <Typografi
         variant="h1"
-        child="DESA DIGITAL"
+        child="DESA ALATA KARYA"
         className="font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-purple-800 to-purple-600"
       />
 

@@ -3,8 +3,7 @@ import heroBg from "../../assets/apbd-bg.svg";
 import { Typografi } from "../../components/Components";
 import FlatCardItem from "../../components/Card/FlatCarditem";
 const paragraphContent = `
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod, lacus eget aliquam
-  tincidunt, lorem nisl aliquet nunc, sit amet ornare nunc nisi 
+  Akses cepat dan transparan terhadap APB Desa serta proyek pembangunan desa yang terus berkembang dengan menggunakan sistem informasi desa yang terintegrasi dengan sistem informasi pemerintah.
 `;
 const Section4 = () => {
   const { apbDes } = useItemContext();
@@ -12,7 +11,7 @@ const Section4 = () => {
     <section
       className="flex md:flex-row flex-col items-center justify-center max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8 gap-2 md:gap-4"
       data-aos="zoom-in-up">
-      <div className="text-center md:text-left flex flex-col">
+      <div className="text-center md:text-left flex flex-col space-y-3">
         <Typografi
           variant="h1"
           child="APBDes"
