@@ -13,22 +13,18 @@ const HeroRigt = ({ item, children }) => {
         />
       </div>
       <div
-        className="text-center md:text-left flex flex-col"
+        className="text-center md:text-left flex flex-col space-y-4"
         data-aos="fade-left">
         <Typografi
           variant="h2"
           child={name}
           className="font-extrabold text-lg md:text-xl lg:text-2xl"
         />
-        <Typografi
-          variant="h1"
-          className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-purple-800 to-purple-600"
-          child={title}
-        />
+        <Typografi variant="h1" className="font-bold " child={title} />
         <Typografi
           variant="kecil"
           child={desc}
-          className="mt-4 text-gray-700 text-sm sm:text-base md:text-lg font-thin"
+          className=" text-gray-600 font-normal"
         />
         <div className="flex justify-center items-center md:justify-start md:items-start gap-2 md:gap-8 mt-3 md:mt-6">
           {children}

@@ -7,16 +7,16 @@ const Section2 = () => {
   return (
     <section
       data-aos="fade-up"
-      className="h-full md:h-screen relative flex flex-col items-center justify-center max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
+      className="h-full md:h-screen relative flex flex-col items-center justify-center max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8 space-y-3">
       <Typografi
         variant="paragraph"
         child="SUDAH SIAP ?"
-        className="font-light flex justify-center items-center mb-2 text-center"
+        className="font-light flex justify-center items-center text-center"
       />
       <Typografi
         variant="h2"
         child="AYO JELAJAHI DESA"
-        className="flex justify-center items-center mb-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-purple-800 to-purple-600 text-center"
+        className="flex justify-center items-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#7cb1c7] via-[#2b72ba] to-[#3680F2]"
       />
       <div className="grid grid-cols-1 gap-6 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full">
         {visitData.map((item, index) => (

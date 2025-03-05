@@ -419,7 +419,7 @@ export const beritaDummy = [
 export const heroDummy = [
   {
     name: "Sofyan Basir Mahmud",
-    title: "Sabutan Kepala Desa",
+    title: "Sambutan Kepala Desa",
     desc: sambutan,
     image: bgKades,
   },
@@ -428,23 +428,23 @@ export const heroDummy2 = [
   {
     name: "VISI & MISI",
     title: "VISI",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod, lacus eget aliquamtincidunt, lorem nisl aliquet nunc, sit amet ornare nunc nisi euismod lacus. Vestibulum euismod, lacus eget aliquam tincidunt,lorem nisl aliquet nunc, sit amet ornare nunc nisi euismod lacu",
+    desc: "Meneguhkan Desa Alata Karya Sebagai Desa Nyaman Huni dan Pusat Pelayanan yang Berdaya Saing Kuat untuk Keberdayaan Masyarakat dengan Berpijak pada Nilai Keistimewaan",
     misi: "MISI",
     paragraphMisi:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod, lacus eget aliquamtincidunt, lorem nisl aliquet nunc, sit amet ornare nunc nisi euismod lacus. Vestibulum euismod, lacus eget aliquam tincidunt,lorem nisl aliquet nunc, sit amet ornare nunc nisi euismod lacu",
     image: logoBg,
-    namaDesa: "DESA DIGITAL",
-    alamatDesa: "Jl. Raya, Dusun 1, Kec. Dusun, Kabupaten, Provinsi, Kode Pos",
+    namaDesa: "DESA ALATA KARYA",
+    alamatDesa: "Kec. Kwandang, Kab. Gorontalo Utara",
   },
 ];
 export const heroDummy3 = [
   {
     image:
       "https://images.unsplash.com/photo-1597047085528-914c8aa0623d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Sejarah Desa Digital",
-    desc: "Desa digital adalah sebuah desa yang terdiri dari penduduk-penduduk yang berasal dari berbagai daerah di Indonesia. Desa digital terdiri dari berbagai komunitas yang saling berhubungan dan berkolaborasi untuk mencapai tujuan dalam meningkatkan kualitas hidup dan kesejahteraan masyarakat. Desa digital juga memiliki sistem pemerintahan yang terintegrasi dan terpadu yang memungkinkan pemerintah untuk mengelola dan mengendalikan seluruh aspek kehidupan masyarakat.",
-    namaDesa: "DESA DIGITAL",
-    alamatDesa: "Jl. Raya, Dusun 1, Kec. Dusun, Kabupaten, Provinsi, Kode Pos",
+    title: "Sejarah Desa Alata Karya",
+    desc: "Desa Alata Karya merupakan Desa yang di Mekarkan dari Desa Leboto  pada Tahun 2011 yang pada saat itu Kepala Desa-nya adalah “SUDARMAN B.MAHMUD,SE” dengan adanya semangat, perjuangan dan kerja keras dari Tokoh masyarakat dan Panitia Pemekaran Desa Leboto   maka lahirlah Desa Mekaran pada tanggal 17 Januari 2011 yang diberi nama “ DESA ALATA KARYA” yang kemudian Desa Alata Karya  sebagai  Penjabat  Kepala  Desa   Adalah        “ SOFYAN B.MAHMUD” selama ± 1 Tahun, kemudian pada tahun 2012 digantikan oleh Bapak SION NUR selama ± 2 Bulan kemudian  Bapak SOFYAN B.MAHMUD menjadi  Kepala Desa yang Definitif, dan kemudian sebagai pejabat Kepala Desa adalah Bapak “DANIAL PAKAYA” selama 1 Tahun, yang kemudian Desa Alata Karya melakukan Pemilihan Kepala Desa Tahun 2019 dan yang menjadi Kepala Desa Aldalah Bapak “SOFYAN BASIR MAHMUD” yang menjabat dari tahun 2019-2025.",
+    namaDesa: "DESA ALATA KARYA",
+    alamatDesa: "Kec. Kwandang, Kab. Gorontalo Utara",
   },
 ];
 export const heroDummy4 = [
@@ -545,7 +545,7 @@ export const dataStunting = {
   datasets: [
     {
       label: "Tingkat Stunting (%)",
-      data: [30.8, 27.7, 24.4, 22.1, 21.6, 20.2], // Data persen stunting per tahun
+      data: [1, 2, 1.5, 2.1, 2.6, 1.1], // Data persen stunting per tahun
       backgroundColor: "rgba(54, 162, 235, 0.7)", // Warna batang chart
       borderColor: "rgba(54, 162, 235, 1)", // Warna border batang chart
       borderWidth: 1, // Ketebalan border
@@ -645,3 +645,34 @@ export const dataIDM = {
     "Bantuan Pendidikan & Beasiswa",
   ],
 };
+
+export const mision = [
+  {
+    id: 1,
+    list: "Meningkatkan kesejahteraan dan keberdayaan masyarakat",
+  },
+  {
+    id: 2,
+    list: "Memperkuat ekonomi kerakyatan dan daya saing Desa Alata Karya",
+  },
+  {
+    id: 3,
+    list: "Memperkuat moral, etika dan budaya masyarakat Desa Alata Karya",
+  },
+  {
+    id: 4,
+    list: "Meningkatkan kualitas pendidikan, kesehatan, sosial dan budaya",
+  },
+  {
+    id: 5,
+    list: "Memperkuat tata kota dan kelestarian lingkungan",
+  },
+  {
+    id: 6,
+    list: "Membangun sarana prasarana publik dan permukiman",
+  },
+  {
+    id: 7,
+    list: "Meningkatkan tatakelola pemerintah yang baik dan bersih",
+  },
+];

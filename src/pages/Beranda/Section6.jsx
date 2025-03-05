@@ -9,11 +9,7 @@ const Section6 = () => {
       data-aos-easing="linear"
       data-aos-duration="1500"
       className="sm:h-screen h-full flex flex-col items-center justify-center max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
-      <Typografi
-        variant="h1"
-        child="GALLERY DESA"
-        className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-purple-800 to-purple-600"
-      />
+      <Typografi variant="h1" child="GALLERY DESA" className="font-bold " />
       <Typografi
         variant="paragraph"
         child="lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod, lacus eget aliquam tincidunt,  eget aliquam tincidunt"

@@ -25,7 +25,7 @@ const DisplayData = () => {
       <div className="flex justify-between">
         <Typografi
           variant="h3"
-          className="font-bold text-start text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-purple-800 to-purple-600"
+          className="font-bold text-start text-transparent bg-clip-text bg-gradient-to-r from-[#7cb1c7] via-[#2b72ba] to-[#3680F2]"
           child={`DATA APB ${village} TAHUN ${year}`}
         />
         <OptionSelect />

@@ -19,8 +19,8 @@ const Navbar = () => {
     <nav
       className={`sticky top-0 z-50 ${
         isScrolled
-          ? "backdrop-filter text-gray-900 bg-indigo-900 backdrop-blur-lg bg-opacity-30 border-b border-gray-400 shadow-sm"
-          : "bg-transperent text-gray-100  bg-indigo-700"
+          ? "backdrop-filter text-slate-700 bg-[#3680F2] backdrop-blur-lg bg-opacity-30 "
+          : "bg-transperent text-gray-100  bg-[#3680F2]"
       }`}>
       <div className="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
@@ -32,7 +32,7 @@ const Navbar = () => {
                   to={item.path}
                   className={({ isActive }) =>
                     `hover:font-extrabold p-2 text-[16px] transition-all ${
-                      isActive ? "font-extrabold" : "font-thin"
+                      isActive ? "font-extrabold" : "font-normal"
                     }`
                   }>
                   {item.name}

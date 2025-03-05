@@ -11,7 +11,7 @@ const Idm = () => {
       <Typografi
         variant="h3"
         child={`INDEKS DESA MEMBANGUN (IDM) ${dataIDM.desa}`}
-        className="font-bold  mt-12 text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-purple-800 to-purple-600"
+        className="font-bold  mt-12 text-transparent bg-clip-text bg-gradient-to-r from-[#7cb1c7] via-[#2b72ba] to-[#3680F2]"
       />
       <Typografi
         variant="paragraph"
@@ -27,7 +27,7 @@ const Idm = () => {
         <Typografi
           variant="h4"
           child="PERKEMBANGAN IDM"
-          className="font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-purple-800 to-purple-600"
+          className="font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#7cb1c7] via-[#2b72ba] to-[#3680F2]"
         />
         <LineChart data={idmData} />
       </div>
@@ -35,7 +35,7 @@ const Idm = () => {
         <Typografi
           variant="h4"
           child="PROGRAM PEMBANGUNAN DESA"
-          className="font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-purple-800 to-purple-600"
+          className="font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#7cb1c7] via-[#2b72ba] to-[#3680F2]"
         />
         <ul className="bg-white p-6 rounded-lg border shadow-md">
           {dataIDM.program.map((program, index) => (

@@ -5,7 +5,7 @@ const Bansos = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4">
       <div className="text-center mb-8">
-        <h1 className="text-2xl md:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-purple-800 to-purple-600 text-center">
+        <h1 className="text-2xl md:text-3xl text-transparent bg-clip-text bg-gradient-to-r from-[#7cb1c7] via-[#2b72ba] to-[#3680F2]">
           Cek Penerima Bansos
         </h1>
       </div>

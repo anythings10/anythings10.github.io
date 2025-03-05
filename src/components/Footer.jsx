@@ -2,12 +2,12 @@ import { PhoneIcon, BellIcon, MapIcon } from "@heroicons/react/16/solid";
 
 const Footer = () => {
   return (
-    <div className="mt-8 bg-[#4F4DFD] pt-9">
+    <div className="mt-8 bg-[#3680F2] pt-9">
       <div className="mx-auto w-full max-w-[1166px] px-4 xl:px-0">
         <div className="flex flex-col justify-between sm:px-[18px] md:flex-row md:px-10 ">
           <div className="md:w-[316px]">
             <h1 className="text-white font-extrabold">
-              <span className="text-rose-600">DESA</span>DIGITAL
+              <span className="text-slate-700">DESA</span>DIGITAL
             </h1>
             <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,

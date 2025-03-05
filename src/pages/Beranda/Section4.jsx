@@ -12,11 +12,7 @@ const Section4 = () => {
       className="flex md:flex-row flex-col items-center justify-center max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8 gap-2 md:gap-4"
       data-aos="zoom-in-up">
       <div className="text-center md:text-left flex flex-col space-y-3">
-        <Typografi
-          variant="h1"
-          child="APBDes"
-          className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-purple-800 to-purple-600"
-        />
+        <Typografi variant="h1" child="APBDes" className="font-bold " />
         <Typografi
           variant="paragraph"
           child={paragraphContent}

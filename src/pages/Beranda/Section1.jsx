@@ -12,12 +12,12 @@ const Section1 = () => {
       <Typografi
         variant="h1"
         child="SELAMAT DATANG DI WEBSITE"
-        className="font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-purple-800 to-purple-600 px-2 sm:px-4"
+        className="font-bold text-center"
       />
       <Typografi
         variant="h1"
         child="DESA ALATA KARYA"
-        className="font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-purple-800 to-purple-600"
+        className="font-bold text-center "
       />
 
       <div className="flex flex-nowrap justify-center items-center gap-4 mt-12">

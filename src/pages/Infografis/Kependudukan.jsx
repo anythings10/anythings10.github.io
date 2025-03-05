@@ -19,7 +19,7 @@ const Kependudukan = () => {
       <Typografi
         variant="h3"
         child="BERDASARKAN PEKERJAAN"
-        className="font-bold text-transparent flex justify-center mb-4 bg-clip-text bg-gradient-to-r from-red-800 via-purple-800 to-purple-600"
+        className="font-bold flex justify-center mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#7cb1c7] via-[#2b72ba] to-[#3680F2]"
       />
       <SimpleTable items={dummyPekerjaan} />
     </>

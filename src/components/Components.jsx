@@ -7,7 +7,11 @@ const Typografi = ({ child, className, variant }) => {
   return (
     <Component
       className={`font-poppins text-gray-800
-          ${variant === "h1" ? "text-4xl sm:text-5xl" : ""}
+          ${
+            variant === "h1"
+              ? "text-4xl sm:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-[#7cb1c7] via-[#2b72ba] to-[#3680F2]"
+              : ""
+          }
           ${variant === "h2" ? "text-3xl sm:text-4xl" : ""}
           ${variant === "h3" ? "text-2xl sm:text-3xl" : ""}
           ${variant === "h4" ? "text-xl sm:text-2xl" : ""}

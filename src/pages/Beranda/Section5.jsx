@@ -7,11 +7,7 @@ const Section5 = () => {
     <section
       data-aos="zoom-out"
       className="h-full md:h-screen relative flex flex-col items-center justify-center max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
-      <Typografi
-        variant="h1"
-        child="PERANGKAT DESA"
-        className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-purple-800 to-purple-600"
-      />
+      <Typografi variant="h1" child="PERANGKAT DESA" className="font-bold " />
       <Typografi
         variant="paragraph"
         child="lorem ipsum dolor sit amet, consectetur adipiscing elit."

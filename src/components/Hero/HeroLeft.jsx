@@ -1,43 +1,43 @@
 import React, { Fragment } from "react";
 import { Typografi } from "../Components";
+import { mision } from "../../utils/dummy";
 
 const HeroLeft = ({ item, className }) => {
-  const {
-    image,
-    name,
-    title,
-    desc,
-    misi,
-    paragraphMisi,
-    namaDesa,
-    alamatDesa,
-  } = item;
+  const { image, name, title, desc, misi, namaDesa, alamatDesa } = item;
   return (
     <Fragment>
-      <div data-aos="fade-right">
+      <div
+        data-aos="fade-right"
+        className="space-y-5 mr-4 h-screen flex flex-col justify-center">
         <Typografi
           variant="h1"
           child={title}
-          className="font-bold flex justify-center text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-purple-800 to-purple-600"
+          className="font-bold flex justify-center"
         />
         <Typografi
-          variant="paragraph"
+          variant="kecil"
           child={desc}
-          className="mt-4 text-gray-700 text-sm sm:text-base md:text-lg font-thin"
+          className=" text-gray-700 text-justify font-normal"
         />
         {misi && (
-          <Fragment>
+          <div>
             <Typografi
               variant="h1"
               child={misi}
-              className="font-bold flex justify-center text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-purple-800 to-purple-600"
+              className="font-bold flex justify-center "
             />
-            <Typografi
-              variant="paragraph"
-              child={paragraphMisi}
-              className="mt-4 text-gray-700 text-sm sm:text-base md:text-lg font-thin"
-            />
-          </Fragment>
+            {mision.map((item) => (
+              <ul key={item.id}>
+                <li className="list-disc">
+                  <Typografi
+                    variant="paragraph"
+                    child={item.list}
+                    className=" text-gray-700 text-justify font-normal"
+                  />
+                </li>
+              </ul>
+            ))}
+          </div>
         )}
       </div>
       <div data-aos="fade-left">
