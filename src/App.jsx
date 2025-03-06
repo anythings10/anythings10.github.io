@@ -11,6 +11,7 @@ const ProfileDesa = lazy(() => import("./pages/ProfileDesa/ProfileDesa"));
 const Berita = lazy(() => import("./pages/Berita/Berita"));
 const Ppid = lazy(() => import("./pages/ppid/Ppid"));
 const NotFound = lazy(() => import("./pages/NotFound"));
+const Lembaga = lazy(() => import("./pages/Lembaga/Lembaga"));
 
 // Lazy Load Infografis Pages
 const Infografis = lazy(() => import("./pages/Infografis/Infografis"));
@@ -34,6 +35,7 @@ const App = () => {
           <Route path="/profile-desa/*" element={<ProfileDesa />} />
           <Route path="/berita" element={<Berita />} />
           <Route path="/ppid" element={<Ppid />} />
+          <Route path="/lembaga" element={<Lembaga />} />
 
           {/* Nested Route untuk Infografis */}
           <Route path="/infografis" element={<Infografis />}>

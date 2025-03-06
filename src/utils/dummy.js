@@ -64,8 +64,8 @@ export const NavItems = [
     path: "/ppid",
   },
   {
-    name: "Peta Desa",
-    path: "/peta-desa",
+    name: "Lembaga",
+    path: "/Lembaga",
   },
 ];
 export const visitData = [
@@ -707,5 +707,29 @@ export const lembaga = [
     image: pkk,
     nama: "PKK",
     slug: "pkk",
+  },
+  {
+    id: 5,
+    image: pkk,
+    nama: "KPU",
+    slug: "kpu",
+  },
+  {
+    id: 6,
+    image: pkk,
+    nama: "KPU",
+    slug: "kpu",
+  },
+  {
+    id: 7,
+    image: pkk,
+    nama: "KPU",
+    slug: "kpu",
+  },
+  {
+    id: 8,
+    image: pkk,
+    nama: "KPU",
+    slug: "kpu",
   },
 ];

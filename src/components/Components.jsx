@@ -31,7 +31,7 @@ const Button = ({ className, buttonType, children, onClick }) => {
     <button
       className={`cursor-pointer text-center transition-all p-3  ${
         buttonType === "primary"
-          ? "min-w-[100px] sm:min-w-[120px] text-[10px] sm:text-[12px] text-white bg-indigo-700 border border-indigo-700 rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring shadow-md"
+          ? "min-w-[100px] sm:min-w-[120px] text-[10px] sm:text-[12px] text-white bg-blue-500 border border-blue-500 rounded active:text-blue-500 hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring shadow-md"
           : ""
       } ${
         buttonType === "secondary"
@@ -43,7 +43,7 @@ const Button = ({ className, buttonType, children, onClick }) => {
           : ""
       } ${
         buttonType === "danger"
-          ? "min-w-[100px] sm:min-w-[120px] text-[10px] sm:text-[12px] text-white bg-red-600 hover:bg-red-700 active:bg-red-500 border border-red-600 rounded focus:outline-none focus:ring shadow-md"
+          ? "min-w-[100px] sm:min-w-[120px] text-[10px] sm:text-[12px] text-white bg-transparent hover:bg-blue-600 active:bg-white border border-white rounded focus:outline-none focus:ring shadow-md"
           : ""
       } ${
         buttonType === "search"

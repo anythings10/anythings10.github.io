@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import { NavItems } from "../utils/dummy";
 import { useEffect, useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
+import { Button } from "./Components";
 import Logo from "../assets/Logo";
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -40,7 +41,9 @@ const Navbar = () => {
               </div>
             ))}
           </div>
-          <h1 className="hidden md:flex font-extrabold text-lg">DesaDigital</h1>
+          <button className="cursor-pointer text-center transition-all p-3 min-w-[100px] sm:min-w-[120px] text-[10px] sm:text-[12px] font-normal bg-transparent border border-white rounded active:text-blue-500 hover:bg-[#367FF2] hover:text-white focus:outline-none focus:ring shadow-md">
+            Peta Desa
+          </button>
           <div className="md:hidden">
             <button onClick={() => setIsOpen(!isOpen)} className="text-2xl">
               {isOpen ? (
