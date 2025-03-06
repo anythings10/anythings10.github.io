@@ -3,7 +3,7 @@ import HeroLeft from "../../components/Hero/HeroLeft";
 const VisiMisi = () => {
   const { heroDummy2 } = useItemContext();
   return (
-    <section className="lock md:grid grid-cols-2 md:grid-cols-2 gap-3 items-center justify-center max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
+    <section className="flex mt-10 flex-wrap md:flex-nowrap items-center justify-center max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8 gap-4 md:gap-8 w-full">
       {heroDummy2.map((item, index) => (
         <HeroLeft
           key={index}

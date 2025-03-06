@@ -28,6 +28,12 @@ import sekretaris from "../assets/seki.png";
 import perencanaan from "../assets/perencanaan.png";
 import keuangan from "../assets/keuangan.png";
 
+//gambar untuk logo lembaga
+import bumdes from "../assets/image-10.png";
+import kartar from "../assets/pngwing.com.png";
+import bpd from "../assets/logo_bpd.png";
+import pkk from "../assets/LOGO-PKK-PNG.png";
+
 //gambar untuk berita desa
 import berita2 from "../assets/image-1.png";
 import berita3 from "../assets/berita.png";
@@ -674,5 +680,32 @@ export const mision = [
   {
     id: 7,
     list: "Meningkatkan tatakelola pemerintah yang baik dan bersih",
+  },
+];
+
+export const lembaga = [
+  {
+    id: 1,
+    image: bumdes,
+    nama: "BUMDES",
+    slug: "bumdes",
+  },
+  {
+    id: 2,
+    image: bpd,
+    nama: "BPD",
+    slug: "bpd",
+  },
+  {
+    id: 3,
+    image: kartar,
+    nama: "KARANG TARUNA",
+    slug: "karang-taruna",
+  },
+  {
+    id: 4,
+    image: pkk,
+    nama: "PKK",
+    slug: "pkk",
   },
 ];

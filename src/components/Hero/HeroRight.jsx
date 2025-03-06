@@ -9,7 +9,7 @@ const HeroRigt = ({ item, children }) => {
         <img
           src={image}
           alt="Image"
-          className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
+          className="w-full max-w-xs sm:max-w-sm md:max-w-xs lg:max-w-sm h-auto"
         />
       </div>
       <div

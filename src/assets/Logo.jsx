@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo-gorut.svg";
+import logo from "../assets/image-10.png";
 const Logo = () => {
   return (
     <div className="flex items-center">
