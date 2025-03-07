@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { NavItems } from "../utils/dummy";
 import { useEffect, useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
@@ -41,9 +41,11 @@ const Navbar = () => {
               </div>
             ))}
           </div>
-          <button className="cursor-pointer text-center transition-all p-3 min-w-[100px] sm:min-w-[120px] text-[10px] sm:text-[12px] font-normal bg-transparent border border-white rounded active:text-blue-500 hover:bg-[#367FF2] hover:text-white focus:outline-none focus:ring shadow-md">
-            Peta Desa
-          </button>
+          <Link to="/peta-desa">
+            <button className="cursor-pointer text-center transition-all p-3 min-w-[100px] sm:min-w-[120px] text-[10px] sm:text-[12px] font-normal bg-transparent border border-white rounded active:text-blue-500 hover:bg-[#367FF2] hover:text-white focus:outline-none focus:ring shadow-md">
+              Peta Desa
+            </button>
+          </Link>
           <div className="md:hidden">
             <button onClick={() => setIsOpen(!isOpen)} className="text-2xl">
               {isOpen ? (

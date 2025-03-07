@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import useAOS from "./utils/hooks/useAOS";
 import Footer from "./components/Footer";
 import ScrollTop from "./utils/ScrollTop";
+import PetaDesa from "./components/PetaDesa";
 
 // Lazy Load Pages
 const Beranda = lazy(() => import("./pages/Beranda/Beranda"));
@@ -36,7 +37,7 @@ const App = () => {
           <Route path="/berita" element={<Berita />} />
           <Route path="/ppid" element={<Ppid />} />
           <Route path="/lembaga" element={<Lembaga />} />
-
+          <Route path="/peta-desa" element={<PetaDesa />}></Route>
           {/* Nested Route untuk Infografis */}
           <Route path="/infografis" element={<Infografis />}>
             <Route index element={<Kependudukan />} /> {/* Default */}
@@ -45,7 +46,6 @@ const App = () => {
             <Route path="bansos" element={<Bansos />} />
             <Route path="idm" element={<Idm />} />
           </Route>
-
           {/* Halaman Not Found */}
           <Route path="*" element={<NotFound />} />
         </Routes>
