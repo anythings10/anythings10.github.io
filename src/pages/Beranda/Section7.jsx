@@ -1,9 +1,16 @@
-import ButtonCardList from "../../components/Card/ButtonCardList";
 import { Typografi } from "../../components/Components";
-import { useNewsContext } from "../../utils/context/NewsProvider";
-
+import { useBerita } from "../../utils/context/BeritaProvider";
+import BeritaList from "../Berita/BeritaList";
+import { useNavigate } from "react-router-dom";
 const Section7 = () => {
-  const { beritaDummy } = useNewsContext();
+  const { state, dispatch } = useBerita();
+  const beritaTerbaru = state.beritaDummy.slice(0, 4);
+  const navigate = useNavigate();
+
+  const handleReadMore = (newsItem) => {
+    dispatch({ type: "READ_NEWS", payload: newsItem });
+    navigate(`/berita?id=${newsItem.id}`);
+  };
   return (
     <section
       data-aos="zoom-out"
@@ -15,8 +22,12 @@ const Section7 = () => {
         className="mt-4 text-gray-700 text-sm sm:text-base md:text-lg font-thin mb-4"
       />
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-        {beritaDummy.slice(0, 4).map((item) => (
-          <ButtonCardList key={item.id} item={item} />
+        {beritaTerbaru.map((item) => (
+          <BeritaList
+            key={item.id}
+            item={item}
+            onOpenModal={() => handleReadMore(item)}
+          />
         ))}
       </div>
     </section>

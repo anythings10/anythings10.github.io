@@ -5,12 +5,10 @@ import BeritaContent from "./BeritaContent";
 const Berita = () => {
   return (
     <BeritaProvider>
-      <section
-        className="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8 space-y-4 mt-6"
-        data-aos="fade-up">
+      <section className="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8 space-y-4 mt-6">
         <Typografi
           variant="h1"
-          child="B E R I T A"
+          child="BERITA"
           className="font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-[#7cb1c7] via-[#2b72ba] to-[#3680F2]"
         />
         <Typografi

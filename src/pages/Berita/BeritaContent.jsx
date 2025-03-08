@@ -2,14 +2,31 @@ import { useState, useMemo, useEffect } from "react";
 import { useBerita } from "../../utils/context/BeritaProvider";
 import BeritaList from "./BeritaList";
 import BeritaModal from "./BeritaModal";
+import { useLocation } from "react-router-dom";
 
-const ITEMS_PER_PAGE = 9;
+const ITEMS_PER_PAGE = 6;
 
 const BeritaContent = () => {
-  const { state } = useBerita();
+  const { state, dispatch } = useBerita();
+  const location = useLocation();
+  const params = new URLSearchParams(location.search);
+  const beritaId = params.get("id");
+
   const [currentPage, setCurrentPage] = useState(1);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  useEffect(() => {
+    if (beritaId) {
+      setIsModalOpen(false);
+      const selectedNews = state.beritaDummy.find(
+        (item) => item.id.toString() === beritaId
+      );
+      if (selectedNews) {
+        dispatch({ type: "READ_NEWS", payload: selectedNews });
+        setTimeout(() => setIsModalOpen(true), 100);
+      }
+    }
+  }, [beritaId, state.beritaDummy, dispatch]);
   const handleOpenModal = () => {
     setIsModalOpen(true);
   };
@@ -18,15 +35,16 @@ const BeritaContent = () => {
   const totalPages = Math.ceil(beritaList.length / ITEMS_PER_PAGE);
 
   useEffect(() => {
-    if (currentPage > totalPages) {
-      setCurrentPage(totalPages || 1);
+    if (currentPage > totalPages && totalPages > 0) {
+      setCurrentPage(totalPages);
     }
   }, [currentPage, totalPages]);
 
-  const paginatedNews = useMemo(() => {
-    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
-    return beritaList.slice(startIndex, startIndex + ITEMS_PER_PAGE);
-  }, [beritaList, currentPage]);
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const paginatedNews = beritaList.slice(
+    startIndex,
+    startIndex + ITEMS_PER_PAGE
+  );
 
   if (beritaList.length === 0) {
     return <p className="text-center">Belum ada berita untuk ditampilkan.</p>;
@@ -49,7 +67,7 @@ const BeritaContent = () => {
           {"< Prev"}
         </button>
 
-        <span className="text-sm font-semibold">
+        <span className="text-sm font-semibold" aria-live="polite">
           Page {currentPage} of {totalPages}
         </span>
 
