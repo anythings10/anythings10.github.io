@@ -1,4 +1,4 @@
-import{j as x,r as o}from"./index-JVZqYOsO.js";const a=({child:r,className:t,variant:e})=>{const s=e==="paragraph"?"p":e==="sedang"?"span":"h1";return x.jsx(s,{className:`font-poppins text-gray-800
+import{j as x,r as o}from"./index-B7ndsqd1.js";const a=({child:r,className:t,variant:e})=>{const s=e==="paragraph"?"p":e==="sedang"?"span":"h1";return x.jsx(s,{className:`font-poppins text-gray-800
           ${e==="h1"?"text-4xl sm:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-[#7cb1c7] via-[#2b72ba] to-[#3680F2]":""}
           ${e==="h2"?"text-3xl sm:text-4xl":""}
           ${e==="h3"?"text-2xl sm:text-3xl":""}
