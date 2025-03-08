@@ -1,0 +1,1 @@
+import{j as s}from"./index-JVZqYOsO.js";import{C as r,a as i,L as o,B as l,p as n,b as p,c as u,d as g}from"./index-Bhuz2kxQ.js";r.register(i,o,l,n,p,u);const d=({data:t,options:e})=>{const a={responsive:!0,plugins:{legend:{position:"top"},title:{display:!0,text:"Default Chart Title"}},scales:{y:{beginAtZero:!0}}};return s.jsx(g,{data:t,options:e||a})};export{d as V};
