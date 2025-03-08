@@ -7,7 +7,7 @@ const Section7 = () => {
   return (
     <section
       data-aos="zoom-out"
-      className="h-full md:h-screen relative flex flex-col items-center justify-center max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
+      className="h-full md:h-screen relative flex flex-col items-center justify-center max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8 py-10 sm:py-16 md:py-20 lg:py-24">
       <Typografi variant="h1" child="BERITA DESA" className="font-bold " />
       <Typografi
         variant="paragraph"

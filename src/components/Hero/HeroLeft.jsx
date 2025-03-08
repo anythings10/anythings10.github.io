@@ -49,7 +49,7 @@ const HeroLeft = ({ item, className }) => {
           <img
             src={image}
             alt={name}
-            className={className + " w-full flex justify-center"}
+            className={className + " w-full flex justify-end"}
           />
           {namaDesa && (
             <div>

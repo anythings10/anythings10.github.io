@@ -4,7 +4,7 @@ import { Typografi } from "../../components/Components";
 const JumlahPenduduk = () => {
   const { totalPenduduk } = useItemContext();
   return (
-    <section className=" gap-8">
+    <section className=" gap-8" data-aos="fade-up">
       <Typografi
         variant="h4"
         child="JUMLAH PENDUDUK & KEPALA KELUARGA"

@@ -1,6 +1,6 @@
 import { Typografi } from "./Components";
 
-const GalleryList = ({ item }) => {
+const GalleryList = ({ item, className }) => {
   const { span, image, title, description } = item;
   return (
     <div
@@ -10,7 +10,7 @@ const GalleryList = ({ item }) => {
       <img
         src={image}
         alt={title}
-        className="w-full h-48 md:h-full object-cover"
+        className={`w-full h-48 md:h-full object-cover ${className}`}
       />
       <div className="absolute inset-0 bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <div className="absolute bottom-0 left-0 right-0 p-4">

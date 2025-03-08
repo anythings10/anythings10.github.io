@@ -15,12 +15,6 @@ const Section = () => {
 
   return (
     <section className="flex flex-col max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8 w-full">
-      <div className="flex flex-wrap md:flex-nowrap items-center justify-center">
-        {heroDummy.map((item, index) => (
-          <HeroRight key={index} item={item} className="w-full md:w-auto" />
-        ))}
-      </div>
-
       <div
         data-aos="fade-up"
         className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-8">
@@ -29,7 +23,7 @@ const Section = () => {
         ))}
       </div>
 
-      <div className="flex justify-center mt-8">
+      <div className="flex justify-center mt-8" data-aos="fade-up">
         <Button buttonType="primary" onClick={toggleDropdown}>
           {isOpen ? "Tampilkan Lebih Sedikit" : "Lihat Semua"}
         </Button>

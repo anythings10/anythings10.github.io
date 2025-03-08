@@ -38,7 +38,7 @@ import pkk from "../assets/LOGO-PKK-PNG.png";
 import berita2 from "../assets/image-1.png";
 import berita3 from "../assets/berita.png";
 import berita4 from "../assets/image-31.jpg";
-const sambutan = `Selamat datang di website profil Desa Alata Karya,
+export const sambutan = `Selamat datang di website profil Desa Alata Karya,
 Alhamdulillah, pada hari ini kita resmi meluncurkan website profil Desa Alata Karya. Kehadiran website ini merupakan wujud nyata dari komitmen Pemerintah Desa Alata Karya untuk memberikan pelayanan publik yang lebih mudah, cepat,dan transparan.
 Dengan adanya website ini, masyarakat dapat mengakses berbagai informasi terkait dengan pelayanan desa, pengurusan administrasi, serta program-program pembangunan yang sedang berjalan. Kami berharap, website ini dapat mempermudah masyarakat dalam mendapatkan informasi yang dibutuhkan dan mempercepat proses pelayanan.`;
 

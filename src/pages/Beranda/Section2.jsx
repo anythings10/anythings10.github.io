@@ -18,9 +18,9 @@ const Section2 = () => {
         child="AYO JELAJAHI DESA"
         className="flex justify-center items-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#7cb1c7] via-[#2b72ba] to-[#3680F2]"
       />
-      <div className="grid grid-cols-1 gap-6 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full">
         {visitData.map((item, index) => (
-          <ButtonCardList key={index} item={item} />
+          <ButtonCardList key={index} item={item} className="w-full" />
         ))}
       </div>
     </section>
