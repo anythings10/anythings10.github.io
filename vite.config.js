@@ -5,4 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   base: "/web-desa/",
   plugins: [react()],
+  build: {
+    outDir: "dist",
+  },
 });
